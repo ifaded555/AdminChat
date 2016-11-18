@@ -1,0 +1,6 @@
+permission: adminchat.use
+# Use: %player% for player, who sends the message
+# Use: %message% for message
+format: "&a&l[AT CHAT]: &b%player%: &e%message%"
+usage_message: "&cUsage: &f/a <message>"
+permission_mesage: "&cYou don't have permission to use this command"
