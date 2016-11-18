@@ -44,6 +44,14 @@ public class Main extends JavaPlugin implements Listener{
                 p.sendMessage(getConfig().getString("permission_message").replace("\"", "").replace("&", "§"));
             }
         }
+        if(cmd.getName().equalsIgnoreCase("adminchatreload")){
+            if(sender.hasPermission("adminchat.reload")){
+                reloadConfig();
+                sender.sendMessage("§cAdminChat: Config reloaded");
+            } else{
+                sender.sendMessage(getConfig().getString("permission_message").replace("\"", "").replace("&", "§"));
+            }
+        }
         return false;
     }
 }
