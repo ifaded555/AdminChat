@@ -1,8 +1,9 @@
 name: AdminChat
 main: cz.Faded.AdminChat
 author: iFaded_
-version: 1.0
+version: 0.2
 
 commands:
  adminchat:
   aliases: [a, ac]
+ adminchatreload:
